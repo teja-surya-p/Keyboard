@@ -1,0 +1,644 @@
+body {
+    background: linear-gradient(100deg, rgb(255, 124, 124), rgb(255, 226, 120), rgb(154, 255, 120), rgb(175, 186, 249), rgb(117, 221, 255), rgb(219, 175, 250), rgb(180, 118, 172), rgb(255, 124, 124), rgb(241, 255, 111));
+    animation: grad 100s infinite;
+    background-size: 10000%;
+}
+
+@keyframes grad {
+    0% {
+        background-position: 0% 30%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.header {
+    margin: 0;
+    margin-top: -90px;
+}
+
+.header h1 {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 50px;
+
+}
+
+.header .one,
+.header .two {
+    /* background-color: rgba(189, 224, 255, 0.312);
+    box-shadow: 0px 0px 3px 3px rgba(228, 243, 255, 0.312); */
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.header .one:hover,
+.header .two:hover {
+    box-shadow: none;
+}
+
+.K,
+.E,
+.Y,
+.B,
+.O,
+.A,
+.R,
+.D {
+    color: rgb(0, 0, 0);
+    font-size: 90px;
+    margin-left: 8px;
+}
+
+.K:hover {
+    color: grey;
+    transition: .3s;
+}
+
+.E:hover {
+    color: rgb(155, 255, 183);
+    transition: .3s;
+}
+
+.Y:hover {
+    color: rgb(254, 80, 80);
+    transition: .3s;
+}
+
+.B:hover {
+    color: rgb(230, 156, 255);
+    transition: .3s;
+}
+
+.O:hover {
+    color: rgb(0, 255, 251);
+    transition: .3s;
+}
+
+.A:hover {
+    color: rgb(216, 255, 255);
+    transition: .3s;
+}
+
+.R:hover {
+    color: blueviolet;
+    transition: .3s;
+}
+
+.D:hover {
+    color: beige;
+    transition: .3s;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+input[type=text] {
+    margin-right: 10px;
+    width: 97%;
+    color: aliceblue;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.266);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.334);
+    opacity: 1;
+}
+
+#control,
+#option {
+    font-size: 10px;
+}
+
+#command {
+    font-size: 7px;
+}
+
+#row1,
+#row2,
+#row3,
+#row4,
+#row5 {
+    height: 90px;
+    display: flex;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+#row6 {
+    height: 90px;
+    display: flex;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.ud1 {
+    font-size: 8px
+}
+
+.ud2 {
+    font-size: 8px;
+}
+
+/* rows */
+
+
+
+/* BUTTONS */
+
+/* row1 */
+
+.esc {
+    margin-left: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.pow {
+    margin-left: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.f1,
+.f2,
+.f3,
+.f4,
+.f5,
+.f6,
+.f7,
+.f8,
+.f9,
+.f10 {
+    margin-left: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+
+
+/* row2 */
+
+
+
+.approx {
+    margin-left: 0px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.zero,
+.minus,
+.plus {
+    margin-left: 14px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.del {
+    margin-left: 10px;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+
+/* row3 */
+
+
+.q,
+.w,
+.e,
+.r,
+.t,
+.y,
+.u,
+.i,
+.o,
+.p,
+.less-than,
+.greather-than,
+.slash {
+    margin-left: 13.5px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.tab {
+    margin-left: 0px;
+    margin-right: 6px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+
+
+/* row4 */
+
+
+.a,
+.s,
+.d,
+.f,
+.g,
+.h,
+.j,
+.k,
+.l,
+.colon-dash,
+.apostaphy {
+    margin-left: 14.5px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.caps {
+    margin-left: 0px;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.return {
+    margin-left: 17.5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+
+/* row5 */
+
+.z,
+.x,
+.c,
+.v,
+.b,
+.n,
+.m,
+.coma,
+.dot {
+    margin-left: 16px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.fslash {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.shift-left,
+.shift-right {
+    margin-left: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+
+/* row6 */
+
+.fn {
+    margin-left: 0px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.control,
+.option-left,
+.option-right {
+    margin-left: 14px;
+    margin-right: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 29px;
+    padding-bottom: 24px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.command-left,
+.command-right {
+    margin-left: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 35px;
+    padding-bottom: 28px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.space-bar {
+    margin-left: 14px;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.left {
+    margin-left: 38px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.right {
+    margin-left: 5px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+.up,
+.down {
+    margin-bottom: 2px;
+    margin-left: 5px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316);
+}
+
+
+/* hover effect */
+
+.bg:hover {
+    cursor: pointer;
+    margin-top: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.316);
+    /* box-shadow: 0px 7px 30px 1px rgba(0, 0, 0, 0.316); */
+    transition: .3s;
+
+}
+
+.control:hover,
+.option:hover {
+    cursor: pointer;
+    margin-top: 6px;
+    padding-top: 27px;
+    padding-bottom: 21px;
+    transition: .3s;
+    box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.316);
+}
+
+.command:hover {
+    cursor: pointer;
+    margin-top: 6px;
+    padding-top: 31px;
+    padding-bottom: 24px;
+    transition: .3s;
+    box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.316);
+}
+
+.up:hover {
+    margin-top: 2px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: .3s;
+    box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.316);
+}
+
+.down:hover {
+    margin-top: 4px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: .3s;
+    box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.316);
+}
+
+
+
+
+.bg:active {
+    transition: .3s;
+    color: white;
+    margin-top: 14px;
+    padding-top: -5px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+}
+
+.bg.active {
+    transition: .01s;
+    color: white;
+    margin-top: 14px;
+    padding-top: -5px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+}
+
+.control:active,
+.option-left:active,
+.option-right:active {
+    transition: .3s;
+    color: white;
+    margin-top: 14px;
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+}
+
+.control.active,
+.option-left.active,
+.option-right.active {
+    transition: .01s;
+    color: white;
+    margin-top: 14px;
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+}
+
+.command:active {
+    transition: .3s;
+    color: white;
+    margin-top: 14px;
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+}
+
+.command.active {
+    transition: .01s;
+    color: white;
+    margin-top: 14px;
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+}
+
+.up:active {
+    transition: .3s;
+    color: white;
+    margin-top: 11px;
+    margin-bottom: -2px;
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+}
+
+.up.active {
+    transition: .01s;
+    color: white;
+    margin-top: 11px;
+    margin-bottom: -2px;
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+}
+
+.down:active {
+    transition: .3s;
+    color: white;
+    margin-top: 14px;
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+}
+
+.down.active {
+    transition: .01s;
+    color: white;
+    margin-top: 14px;
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+}
